@@ -1,0 +1,15 @@
+a="This is new"
+tmp=""
+new=[]
+
+for i in a:
+    if i==" ":
+        new.append(tmp)
+        tmp=""
+    else:
+        tmp=tmp+i
+if tmp:
+    new.append(tmp)
+
+print(new)
+

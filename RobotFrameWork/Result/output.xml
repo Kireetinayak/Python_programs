@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.7.0 on win32)" generated="20210728 23:20:17.403" rpa="false" schemaversion="2">
+<suite id="s1" name="Sample" source="C:\Users\UC267873\PycharmProjects\RobotFrameWork\Test_demo\sample.robot">
+<test id="s1-t1" name="Open the browser and login">
+<kw name="Common.Open the browser">
+<msg timestamp="20210728 23:20:17.460" level="FAIL">No keyword with name 'Common.Open the browser' found.</msg>
+<status status="FAIL" starttime="20210728 23:20:17.460" endtime="20210728 23:20:17.460"/>
+</kw>
+<kw name="App.login to Application">
+<status status="NOT RUN" starttime="20210728 23:20:17.463" endtime="20210728 23:20:17.463"/>
+</kw>
+<kw name="Common.close the browser">
+<status status="NOT RUN" starttime="20210728 23:20:17.469" endtime="20210728 23:20:17.469"/>
+</kw>
+<status status="FAIL" starttime="20210728 23:20:17.455" endtime="20210728 23:20:17.470">No keyword with name 'Common.Open the browser' found.</status>
+</test>
+<status status="FAIL" starttime="20210728 23:20:17.407" endtime="20210728 23:20:17.472"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Sample">Sample</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210728 23:20:17.394" level="ERROR">Error in file 'C:\Users\UC267873\PycharmProjects\RobotFrameWork\Test_demo\sample.robot' on line 9: Non-existing setting 'Documetation'. Did you mean:
+    Documentation</msg>
+<msg timestamp="20210728 23:20:17.396" level="ERROR">Error in file 'C:\Users\UC267873\PycharmProjects\RobotFrameWork\Test_demo\sample.robot' on line 10: Non-existing setting 'Tag'. Did you mean:
+    Tags</msg>
+<msg timestamp="20210728 23:20:17.448" level="ERROR">Error in file 'C:\Users\UC267873\PycharmProjects\RobotFrameWork\Test_demo\sample.robot' on line 2: Resource file 'Resources\App.robot' does not exist.</msg>
+<msg timestamp="20210728 23:20:17.452" level="ERROR">Error in file 'C:\Users\UC267873\PycharmProjects\RobotFrameWork\Test_demo\sample.robot' on line 3: Resource file 'Resources\Common.robot' does not exist.</msg>
+</errors>
+</robot>

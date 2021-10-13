@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.7.0 on win32)" generated="20210728 16:46:35.415" rpa="false" schemaversion="2">
+<suite id="s1" name="Sample" source="C:\Users\UC267873\PycharmProjects\RobotFrameWork\Test_demo\Sample.robot">
+<test id="s1-t1" name="Open the browser and login">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>Login_page</arg>
+<arg>ff</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210728 16:46:35.636" level="INFO">Opening browser 'ff' to base url 'Login_page'.</msg>
+<msg timestamp="20210728 16:46:35.638" level="INFO">Firefox driver log is always forced to to: C:\Users\UC267873\PycharmProjects\RobotFrameWork\geckodriver-2.log</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20210728 16:46:42.536" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20210728 16:46:42.465" endtime="20210728 16:46:42.536"/>
+</kw>
+<msg timestamp="20210728 16:46:42.541" level="FAIL">InvalidArgumentException: Message: Malformed URL: URL constructor: Login_page is not a valid URL.
+</msg>
+<status status="FAIL" starttime="20210728 16:46:35.636" endtime="20210728 16:46:42.541"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20210728 16:46:42.542" endtime="20210728 16:46:42.542"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20210728 16:46:42.542" endtime="20210728 16:46:42.542"/>
+</kw>
+<status status="FAIL" starttime="20210728 16:46:35.635" endtime="20210728 16:46:42.542">InvalidArgumentException: Message: Malformed URL: URL constructor: Login_page is not a valid URL.
+</status>
+</test>
+<status status="FAIL" starttime="20210728 16:46:35.417" endtime="20210728 16:46:42.544"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Sample">Sample</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210728 16:46:35.409" level="ERROR">Error in file 'C:\Users\UC267873\PycharmProjects\RobotFrameWork\Test_demo\Sample.robot' on line 10: Non-existing setting 'Documetation'. Did you mean:
+    Documentation</msg>
+<msg timestamp="20210728 16:46:35.410" level="ERROR">Error in file 'C:\Users\UC267873\PycharmProjects\RobotFrameWork\Test_demo\Sample.robot' on line 11: Non-existing setting 'Tag'. Did you mean:
+    Tags</msg>
+</errors>
+</robot>
